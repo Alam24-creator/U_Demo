@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import {  FaCaretDown } from "react-icons/fa"
 import {  HiMenuAlt3,HiMenuAlt1 } from "react-icons/hi"
 import ResponsiveMenu from './ResponsiveMenu'
+import imggg from "../assets/image.png"
 
 const dropdownlink=[
     {
@@ -40,7 +41,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center'>
                 <div>
                     <Link to="/" onClick={()=>{window.scrollTo(0,0),smooth}}>
-                        <img src="./src/assets/image copy.png" className='h-16'></img>
+                        <img src={imggg} className='h-16'></img>
                     </Link>
                 </div>
                 <div className='hidden sm:block'>

@@ -8,12 +8,13 @@ import Blogs from './Blogs'
 import Banner from '../components/Banner'
 import Testimonial from "../components/Testimonial.jsx"
 import BlogComp from "../components/BlogComp"
+import kaaba from "../assets/kaaba.jpg"
 const Home = () => {
   return (
     <>
     <div>
       <div className=' relative h-[780px]'>
-        <img  src='src/assets/kaaba.jpg' className='absolute right-0 top-0 w-full h-[780px] object-cover z-[-1]'>
+        <img  src={kaaba} className='absolute right-0 top-0 w-full h-[780px] object-cover z-[-1]'>
             
         </img>
         <Hero/>
